@@ -221,3 +221,10 @@
   background-color: var(--lightgreenbluemax-color);
   transition: 0.6s;
 }
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: 30px;
+}
