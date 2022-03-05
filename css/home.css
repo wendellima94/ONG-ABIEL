@@ -1,0 +1,223 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--main-color);
+  width: 100vw;
+  height: 18vh;
+  z-index: 1;
+  position: fixed;
+}
+
+.menu a {
+  font-size: 1.4rem;
+  color: aliceblue;
+
+  text-decoration: none;
+}
+.menu a:hover {
+  opacity: 4s;
+  color: violet;
+}
+
+.homeImage img {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  main {
+    background-color: var(--secundary-color);
+  }
+
+  .homeImage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .homeImage img {
+    height: 60%;
+    width: 100vw;
+
+    margin-top: 160px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    padding: 10px 10px 30px 10px;
+    width: 100vw;
+  }
+  .info article img {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+  }
+  .info article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100vw;
+    padding: 10px;
+  }
+  .imgInfo img {
+    border-radius: 30%;
+    background-color: var(--lightgreenblue-color);
+    width: 120vw;
+  }
+  .info p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .info p:nth-child(2) {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    max-height: 60vh;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-height: 140vh;
+  }
+  .about article img {
+    border-radius: 30%;
+    background-color: var(--lightgreenblue-color);
+    width: 70vw;
+    height: 30vh;
+    
+  }
+  .buttonDoarHome {
+    border: none;
+    border-radius: 8px;
+    width: 12rem;
+    height: 4rem;
+    color: white;
+    background-color: var(--greenlightblue-color);
+    font-size: 1.4rem;
+  }
+  .buttonDoarHome:hover {
+    font-weight: bolder;
+    color: white;
+    background-color: var(--lightgreenbluemax-color);
+    transition: 0.6s;
+  }
+}
+
+.buttonDoar {
+  font-size: 1rem;
+  color: white;
+  width: 5rem;
+  height: 3rem;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--greenlightblue-color);
+}
+
+.buttonDoar:hover {
+  font-weight: bolder;
+  color: white;
+  background-color: var(--lightgreenbluemax-color);
+  transition: 0.6s;
+}
+
+.content {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 30px;
+}
+
+.contentEnd {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.212);
+}
+.info {
+  width: 100vw;
+  height: 50vh;
+  background-color: var(--mediumblue-color);
+  position: relative;
+  border-bottom: 1px solid gray;
+}
+.info article {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: aliceblue;
+  font-size: 2rem;
+  text-align: center;
+}
+.info img {
+  width: 750px;
+  height: 350px;
+  top: -40px;
+}
+.info aside {
+  padding: 40px;
+}
+.about {
+  top: -260px;
+  width: 100vw;
+  height: 50vh;
+  background-color: var(--mediumblue-color);
+  position: relative;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about img {
+  width: 50vw;
+  height: 50vh;
+}
+.buttonDoarHome {
+  border: none;
+  border-radius: 8px;
+  width: 12rem;
+  height: 4rem;
+  color: white;
+  background-color: var(--greenlightblue-color);
+  font-size: 1.4rem;
+}
+.buttonDoarHome:hover {
+  font-weight: bolder;
+  color: white;
+  background-color: var(--lightgreenbluemax-color);
+  transition: 0.6s;
+}

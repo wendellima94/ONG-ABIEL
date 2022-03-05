@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: none;
+  font-family: "Fredoka", sans-serif;
+}
+/* pallete  */
+:root {
+  --main-color: #7400b8;
+  --secundary-color: #6930c3;
+  --darkblue-color: #5e60ce;
+  --mediumblue-color: #5390d9;
+  --mediumblue2-color: #4ea8de;
+  --light-blue-color: #48bfe3;
+  --lightblue2-color: #56cfe1;
+  --greenlightblue-color: #64dfdf;
+  --lightgreenblue-color: #72efdd;
+  --lightgreenbluemax-color: #80ffdb;
+
+  --main-fontsize: 1.2rem;
+  --menu-fontsize: 1.4rem;
+}
