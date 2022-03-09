@@ -168,7 +168,7 @@
 }
 .info {
   width: 100vw;
-  height: 50vh;
+  height: 53vh;
   background-color: var(--mediumblue-color);
   position: relative;
   border-bottom: 1px solid gray;
@@ -227,4 +227,11 @@
   flex-direction: column;
   color: aliceblue;
   font-size: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  bottom: 0;
 }
